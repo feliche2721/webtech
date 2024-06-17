@@ -232,7 +232,7 @@ a {
 .form-box h2 {
     font-size: 2em;
     font-weight: 800;
-    color: rgb(60, 51, 51);
+    color: var(--neutral-color);
     text-align: center;
     pointer-events: none;
 }
