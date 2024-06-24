@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purr n'Snouts - Contact us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <a href="index.html" class="logo-name">
+                <img src="Images/logo-black.png" alt="logo" class="logo-icon">
+                Purr n'Snouts
+            </a>
+        </div>
+
+        <nav id="home"class="navbar">
+
+            <a href="index.html#about-us">About</a>
+
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Services</a>
+                <ul class="dropdown-content">
+                    <li><a href="index.html#train-class">Training Classes</a></li>
+                    <li><a href="index.html#pet-care">Pet Care</a></li>
+                    <li><a href="index.html#furr-bath">Furr Bath</a></li>
+                    <li><a href="index.html#medVet-ser">MedVet Services</a></li>
+                    <li><a href="index.html#safe-hedge">Safe Hedge</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Products</a>
+                <ul class="dropdown-content">
+                    <li><a href="index.html#dog-F">Dog Food</a></li>
+                    <li><a href="index.html#dog-T">Dog Treats</a></li>
+                    <li><a href="index.html#cat-F">Cat Food</a></li>
+                    <li><a href="index.html#cat-T">Cat Treats</a></li>
+                    <li><a href="index.html#grm-supps">Pet Grooming Supplies</a></li>
+                    <li><a href="index.html#hlth-wll">Pet Health & Wellness</a></li>
+                    <li><a href="index.html#pet-supps">Pet Supplies</a></li>
+                </ul>
+            </div>
+
+            <a href="contact.html">Contact Us</a>
+
+        </nav>
+
+    </header>
+
+    <section class="contact">
+
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>We are committed to providing exceptional service and support. If you have any questions, concerns, or feedback, please do not hesitate to reach out to us. Our dedicated team is here to assist you and ensure that your experience with our company exceeds your expectations. We value your input and look forward to hearing from you.</p>
+        </div>
+
+        <div class="container">
+            <div class="contact-info">
+
+                <div class="box">
+                    <div class="icon"><ion-icon name="location-outline"></ion-icon></ion-icon></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>3523 Aguinaldo Highway, <br>Dasmariñas, Cavite, <br>2202</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><ion-icon name="call"></ion-icon></ion-icon></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>(63+) 0921-856-9935</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><ion-icon name="mail-outline"></ion-icon></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>secret@gmail.com</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contact-form">
+                <form action="" id="ticket-form">
+                    <h2>Send Message</h2>
+
+                    <div class="input-box">
+                        <input type="text" id="i_name" name="full_name" required>
+                        <span>Full Name</span>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="email" id="i_email" name="email" required>
+                        <span>Email</span>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="textarea" id="i_msg" name="message" required>
+                        <span>Type your Message...</span>
+                    </div>
+
+                    <div class="input-box">
+                        <input onclick="sendMessage(event)" type="submit" name="" id="submit-btn" value="Send">
+                    </div>
+                    
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="contact.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html> 
